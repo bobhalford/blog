@@ -1,4 +1,4 @@
-github.io
+The Blog
 =========
 
 Bob Halford Dev Stuff
