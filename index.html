@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>Github.io by bobhalford</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/bobhalford/blog">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/bobhalford/blog/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/bobhalford/blog/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <header>
-      <div class="container">
-        <h1>Github.io</h1>
-        <h2>Bob Halford Dev Stuff</h2>
+    <div class="wrapper">
 
-        <section id="downloads">
-          <a href="https://github.com/bobhalford/github.io/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/bobhalford/github.io/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/bobhalford/github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section>
+        <div id="title">
+          <h1>Github.io</h1>
+          <p>Bob Halford Dev Stuff</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/bobhalford">bobhalford</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-    <div class="container">
-      <section id="main_content">
         <h3>
 <a name="welcome-to-bob-hallfords-dev-pages" class="anchor" href="#welcome-to-bob-hallfords-dev-pages"><span class="octicon octicon-link"></span></a>Welcome to Bob Hallford's Dev Pages.</h3>
 
@@ -44,11 +54,6 @@ $ ...
 <p>Hmmmm... designer what-plates?</p>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Always....</p>
@@ -58,8 +63,9 @@ $ ...
 
 <p>bob.</p>
       </section>
-    </div>
 
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
